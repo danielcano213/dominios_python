@@ -1,6 +1,6 @@
 from flask import Flask
 
-## crear el objeto principal ##
+## crear el objeto principal
 app = Flask(__name__)
 
 #importar a las rutas definidas

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.00" multi-file="no" uid="simpdac759ad357d4f8aa5886a2b4bcc837c" creation-date="02/07/2024 14:38:28">
+  <meta>
+    <name>jhosep</name>
+    <authors> Aprendiz</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-5448148036954ce9886b241407cf07d1" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name>Aprendiz</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-bf83942ba2c945a482d2d80b3a00ffef" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p3ce14636b57d460caabfc6aff2473fbb_661745245" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>02/07/2024 14:38:32</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p2cb6dc9064a14fa68e068d5290af8917_438547339" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/07/2024 14:38:32</creation-date>
+          <change-date>02/07/2024 14:41:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="7e8354181472485996fc4e47d051d19d" cid="C002" type="class" name="Class2" creator="" creation-date="02/07/2024 14:41:21" />
+          <item id="6a18e04f3c60471bb9f9a3a146e29f95" cid="C001" type="class" name="CLIENTE" creator="" creation-date="02/07/2024 14:41:12" />
+        </abstract-items>
+        <layer id="5627de8459b24e518cf7dc55d6f3097f" name="Default" visible="true" enabled="true" locked="false">
+          <item id="6a18e04f3c60471bb9f9a3a146e29f95" iid="2975e7bd8fc94cc98fd6feb6a1dd2e03" show-fields="true" creation-date="02/07/2024 14:41:12" order-index="0" type="entity">
+            <layout ax="56" ay="40" awidth="140" aheight="160" x="56" y="40" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="7e8354181472485996fc4e47d051d19d" iid="2f69288f1159447c9b3d1e4b1399d141" show-fields="true" creation-date="02/07/2024 14:41:21" order-index="1" type="entity">
+            <layout ax="328" ay="40" awidth="140" aheight="160" x="328" y="40" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
