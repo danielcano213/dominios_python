@@ -1,9 +1,22 @@
-
 class Carro():
-    placa = "SDF 456"
-    tipo_vehiculo = "camion"
+
+    #metodo constructor
+    def __init__(self, placa , tipo_vehiculo):
+        self.placa = placa                                                               
+        self.tipo_vehiculo = tipo_vehiculo
 
 class Cliente():
-    nombre = "Daniel Cano"
-    celular = 3107715326
-    identificacion = 1014479877
+    
+    #metodo constructor
+    def __init__(self, nombre , celular , identificacion, lista_carros):
+        self.nombre = nombre 
+        self.celular = celular
+        self.identificacion = identificacion
+        self.lista_carros = lista_carros 
+        
+    def addCar(self , car):
+        self.lista_carros.append(car)
+        
+    def listCar(self): 
+        for i in self.lista_carros:
+            print("Carro con placas: " +i.placa )
