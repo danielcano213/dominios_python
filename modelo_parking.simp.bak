@@ -135,10 +135,10 @@
     </custom-types>
   </types>
   <items>
-    <item id="4169847f8662474792309ce465cac1de" cid="PROP033" type="property" owner="04e77af2ffc94898b87dd85d025950f3" creator="" creation-date="02/13/2024 16:39:18" visibility="undefined">
+    <item id="4169847f8662474792309ce465cac1de" cid="PROP033" type="property" name="es hecho por" owner="04e77af2ffc94898b87dd85d025950f3" creator="" creation-date="02/13/2024 16:39:18" visibility="private">
       <structural-feature multiplicity="factura" type="Pago" type-id="Class:2d1c075475c6402a8f2d09f912dcb951" />
     </item>
-    <item id="2c2b8ccb811d4d788ac16dd9116d569d" cid="PROP034" type="property" owner="04e77af2ffc94898b87dd85d025950f3" creator="" creation-date="02/13/2024 16:39:18" visibility="undefined">
+    <item id="2c2b8ccb811d4d788ac16dd9116d569d" cid="PROP034" type="property" owner="04e77af2ffc94898b87dd85d025950f3" creator="" creation-date="02/13/2024 16:39:18" visibility="private">
       <structural-feature type="Pago" type-id="Class:2d1c075475c6402a8f2d09f912dcb951" />
     </item>
     <item id="162fcb137af84503b4201f456282562a" cid="PROP013" type="property" owner="a6a668175761441db318daf813bcabcf" creator="" creation-date="02/13/2024 13:56:45" visibility="private">
@@ -401,9 +401,10 @@ permite defiinir el papel que juega una entidad en una relacion de asociacion</c
             <class />
           </item>
           <item id="04e77af2ffc94898b87dd85d025950f3" iid="e1ea6208385442b39fa7d5ff42bfcc7a" creation-date="02/13/2024 16:39:18" order-index="9" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="155.13118,26.843441" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="185" y1="419" x2="185" y2="419" start-border-pos="0.442741935483871" end-border-pos="0.442741935483871" start-local-pos="119.5" end-local-pos="119.5" name-position="-11,283">
+            <layout start-role-position="38.109287,38.11162" end-role-position="41.499447,-20.810993" start-multiplicity-position="124.35956,-23.287464" end-multiplicity-position="147.01515,13.483061" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="185" y1="419" x2="185" y2="419" start-border-pos="0.442741935483871" end-border-pos="0.442741935483871" start-local-pos="119.5" end-local-pos="119.5" name-position="-11,283">
               <points>
                 <point x="185" y="419" />
+                <point x="237" y="481" />
                 <point x="294" y="546" />
                 <point x="226" y="468.5" />
                 <point x="185" y="419" />
